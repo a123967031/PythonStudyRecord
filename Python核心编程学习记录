@@ -1,0 +1,4 @@
+#method for printing dict char
+dict2 = {'name': 'venus', 'port': 6969}
+print 'host %(name)s is running on port %(port)d' %dict2
+#Python核心编程 P167
