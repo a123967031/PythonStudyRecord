@@ -8,3 +8,6 @@ dict2 = {'name': 'venus', 'port': 6969}
 for eachKey in sorted(dict2):
     print 'dict2 key', eachKey, 'has value', dict2[eachKey]
 #Python核心编程 P173
+
+#dict.update() and dict.fromkeys() method
+dicta.update({}.fromkeys(srcstr[len(dststr):]))
