@@ -12,11 +12,11 @@ else:
 ```
 
 - 更优解法,使用字典。使用字典对象搜索操作比for/while循环快很多
-  ```
-  msgs = {'create': 'create item', 'delete': 'delete item', 'update': 'update item'}
-  default = 'invlalid choice... try again!'
-  action = msgs.get(user.cmd, default)
-  ```
+```
+msgs = {'create': 'create item', 'delete': 'delete item', 'update': 'update item'}
+default = 'invlalid choice... try again!'
+action = msgs.get(user.cmd, default)
+```
 
 ## 8.2 条件表达式
 - 表达式：`X if C else Y`
