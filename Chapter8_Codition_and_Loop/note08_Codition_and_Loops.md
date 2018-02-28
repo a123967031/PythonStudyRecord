@@ -2,7 +2,7 @@
 
 ## 8.1 elif语句
 - 可代替switch-case
-```
+```Python
 if user.cmd == 'create':
   action = "create item"
 elif user.cmd == 'delete':
@@ -12,7 +12,7 @@ else:
 ```
 
 - 更优解法,使用字典。使用字典对象搜索操作比for/while循环快很多
-```
+```Python
 msgs = {'create': 'create item', 'delete': 'delete item', 'update': 'update item'}
 default = 'invlalid choice... try again!'
 action = msgs.get(user.cmd, default)
@@ -42,7 +42,7 @@ StopIteration 异常告诉程序循环结束. for 语句在内部调用next()并
   - 性能远高出`range()`,因为它不生成完整列表
   - 生成的可迭代对象既不是列表也不是一个迭代器
 - 判断是否为可迭代对象
-```
+```Python
 >>> from collections import Iterable
 >>> isinstance(Object, Iterable)
 ```
@@ -65,7 +65,7 @@ StopIteration 异常告诉程序循环结束. for 语句在内部调用next()并
   - 与所有已经存在的用户定义的类以及扩展的模拟序列和映射的对象向后兼容
   - 迭代非序列集合时，可以创建更简洁的代码
 
-```
+```Python
 fetch = iter(seq)
 while True:
   try:
@@ -86,12 +86,12 @@ while True:
 成员，最后的结果值是该表达式产生的列表。
 列表解析可以取代`map()`和`lambda`函数
 - 计算txt文件的中非空白字符的数目
-```
+```Python
 >>> f = open('hhga.txt', 'r')
 >>> len([word for line in f for word in line.split()])
 ```
 - 快速计算文件大小
-```
+```Python
 import os
 >>> os.stat('hhga.txt').st_size
 499L
@@ -108,7 +108,7 @@ import os
 表达式使用了“延迟计算”(lazy evaluation),所以它在内存上更有效。
 
 - 利用简单的生成器和生成器表达式创建交叉配对。
-```
+```Python
 rows = [1, 2, 3, 17]
 def cols():
   yield 56
