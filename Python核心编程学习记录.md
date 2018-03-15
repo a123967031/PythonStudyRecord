@@ -31,3 +31,20 @@ TypeError: sequence item 3: expected string, NoneType found
 
 - 过滤None字符
 `mylist = [ch for ch in mylist if ch]`
+
+-模块显示名字、类型、值用法
+```Python
+#!/usr/bin/env python
+#-*- coding:utf-8 -*-
+
+module = raw_input('输入模块名：')
+m1 = __import__(module)
+m2 = dir(m1)
+print m2
+for i in m2:
+    print 'name: ',i
+    print 'type: ', type(getattr(m1, i))
+    print 'value: ', getattr(m1, i)
+    print
+```
+**练习9-8**
