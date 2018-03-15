@@ -1,0 +1,80 @@
+#!/usr/bin/env python
+
+f = open('test.txt', 'r')
+for eachline in f:
+    if eachline[0] == '#':
+        continue
+    elif '#' in eachline:
+        print eachline[:eachline.find('#')]
+    else:
+        print eachline,
+#!/usr/bin/env python
+
+f = open('test.txt', 'r')
+for eachline in f:
+    if eachline[0] == '#':
+        conxtinue
+    elif '#' in eachline:
+        print eachline[:eachline.find('#')]
+    else:
+        print eachline,
+#!/usr/bin/env python
+
+f = open('test.txt', 'r')
+for eachline in f:
+    if eachline[0] == '#':
+        continue
+    elif '#' in eachline:
+        print eachline[:eachline.find('#')]
+    else:
+#!/usr/bin/env python
+
+f = open('test.txt', 'r')
+for eachline in f:
+    if eachline[0] == '#':
+        continue
+    elif '#' in eachline:
+        print eachline[:eachline.find('#')]
+    else:
+        print eachline,
+        print eachline,
+#!/usr/bin/env python
+
+f = open('test.txt', 'r')
+for eachline in f:
+    if eachline[0] == '#':
+        continue
+    elif '#' in eachline:
+        print eachline[:eachline.find('#')]
+    else:
+        print eachline,
+#!/usr/bin/env python
+
+f = open('test.txt', 'r')
+for eachline in f:
+    if eachline[0] == '#':
+        continue
+    elif '#' in eachline:
+        print eachline[:eachline.find('#')]
+    else:
+        print eachline,
+#!/usr/bin/env python
+
+f = open('test.txt', 'r')
+for eachline in f:
+    if eachline[0] == '#':
+        continue
+    elif '#' in eachline:
+        print eachline[:eachline.find('#')]
+    else:
+        print eachline,
+#!/usr/bin/env python
+
+f = open('test.txt', 'r')
+for eachline in f:
+    if eachline[0] == '#':
+        continue
+    elif '#' in eachline:
+        print eachline[:eachline.find('#')]
+    else:
+        print eachline,
